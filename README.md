@@ -53,6 +53,8 @@ CAN (campus area network): como una MAN pero de una región más chica.
 PAN (personal area network): conectan y permiten la transferencia de datos entre los dispositivos de un mismo usuario.
 SAN (storage area network): enlazan unidades de almacenamiento de información y datos. Son rápidas y están instaladas paralelamente con las redes locales
 
+![redes según su geografía](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcs0T1Px0YEGdjIKJk3YS89gf53DbkYIjqMv3c6kcHPoOutUg8SKy86Va8jb-XeMohMP6OSsT1lwGNS8DlHThbto_PWe3HyDi-x3VScuwdwxbNz6yXvHz3oopExfLUQZFggGag6qVfBxC4/s320/redmeh.png)
+
 9- Defina una red según su topología. Explicar distintas variantes.
 La topología de red es la disposición geométrica de los puntos de conexión (nodos) y los enlaces de datos en una red. Según el gráfico, las variantes son:
 Bus: Todos los nodos están conectados a un medio de transmisión común (un solo cable). Es sencilla de instalar pero, si el cable central falla, toda la red queda inoperativa.
