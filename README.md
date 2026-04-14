@@ -20,6 +20,11 @@ Un protocolo es un conjunto de reglas, restriciones, procedimientos y formatos q
 
 6- Explique TCP/IP y NetBios, resuma sus diferencias. (Acá sí explicar cada uno y sus diferencias)
 
+7- ¿Cómo está formado un paquete de datos TCP/IP?¿Qué es un "flag" en un paquete TCP/IP?
+
+Un paquete TCP/IP se forma con cabecera IP (origen/destino, TTL, etc.) mas la cabecera TCP (puertos, número de secuencia, flags, ventana) y los datos. Un flag en TCP es un bit de control (ej. SYN, ACK, FIN, RST) que indica estado de la conexión, como inicio, confirmación o fin.
+
+
 TCP/IP: Es el conjunto de protocolos estándar de Internet. Se encarga del direccionamiento (IP) y de garantizar que los datos lleguen de forma confiable y ordenada (TCP). Es enrutable, lo que permite la comunicación entre redes distintas a nivel global.
 NetBIOS: Es una interfaz o API antigua que permite a las aplicaciones en computadoras separadas comunicarse dentro de una red local (LAN). Se utilizaba principalmente para identificar equipos por nombres (ej: "PC-VENTAS"). No es enrutable por sí solo.
 Diferencias: TCP/IP es escalable para redes globales y utiliza direcciones IP, mientras que NetBIOS está diseñado para redes pequeñas y utiliza nombres de hasta 15 caracteres.
