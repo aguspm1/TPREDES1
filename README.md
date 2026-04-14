@@ -35,6 +35,9 @@ Doble Anillo: Similar a la de anillo, pero con un segundo anillo redundante que 
 Malla: Los nodos están conectados entre sí de manera que existan varios caminos para los datos. No todos los nodos están conectados con todos, pero hay suficiente redundancia.
 Totalmente Conexa: Es un caso especial de malla donde cada nodo tiene una conexión directa con todos los demás nodos de la red. Ofrece la máxima redundancia y velocidad, pero es la más costosa de cablear.
 
+11- Explicar el servicio de DNS.
+DNS (sistema de nombres de dominios), es un sistema que traduce nombres de dominio en direcciones IP númericas (que sonas que usan los dispositivos para comunicarse entre sí en internet). Facilita la navegación y el acceso a servicios en línea sin tener que recordar los IP de los mismos
+
 12- Explicar las tecnologías Wireless, y sus estándares.
 
 15- Explicar el protocolo de comunicaciones OSPF.
