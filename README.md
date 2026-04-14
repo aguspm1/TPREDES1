@@ -20,14 +20,13 @@ Un protocolo es un conjunto de reglas, restriciones, procedimientos y formatos q
 
 6- Explique TCP/IP y NetBios, resuma sus diferencias. (Acá sí explicar cada uno y sus diferencias)
 
-7- ¿Cómo está formado un paquete de datos TCP/IP?¿Qué es un "flag" en un paquete TCP/IP?
-
-Un paquete TCP/IP se forma con cabecera IP (origen/destino, TTL, etc.) mas la cabecera TCP (puertos, número de secuencia, flags, ventana) y los datos. Un flag en TCP es un bit de control (ej. SYN, ACK, FIN, RST) que indica estado de la conexión, como inicio, confirmación o fin.
-
-
 TCP/IP: Es el conjunto de protocolos estándar de Internet. Se encarga del direccionamiento (IP) y de garantizar que los datos lleguen de forma confiable y ordenada (TCP). Es enrutable, lo que permite la comunicación entre redes distintas a nivel global.
 NetBIOS: Es una interfaz o API antigua que permite a las aplicaciones en computadoras separadas comunicarse dentro de una red local (LAN). Se utilizaba principalmente para identificar equipos por nombres (ej: "PC-VENTAS"). No es enrutable por sí solo.
 Diferencias: TCP/IP es escalable para redes globales y utiliza direcciones IP, mientras que NetBIOS está diseñado para redes pequeñas y utiliza nombres de hasta 15 caracteres.
+
+7- ¿Cómo está formado un paquete de datos TCP/IP?¿Qué es un "flag" en un paquete TCP/IP?
+
+Un paquete TCP/IP se forma con cabecera IP (origen/destino, TTL, etc.) mas la cabecera TCP (puertos, número de secuencia, flags, ventana) y los datos. Un flag en TCP es un bit de control (ej. SYN, ACK, FIN, RST) que indica estado de la conexión, como inicio, confirmación o fin.
 
 8- Defina la red según su geografía. Explicar distintas variantes
 Una red puede categorizarse según su alcance a nivel geografico. Hay redes que conectan y permiten el transpaso de información entre nodos de distintos países, y redes de alcances más pequeños.
@@ -51,15 +50,32 @@ Doble Anillo: Similar a la de anillo, pero con un segundo anillo redundante que 
 Malla: Los nodos están conectados entre sí de manera que existan varios caminos para los datos. No todos los nodos están conectados con todos, pero hay suficiente redundancia.
 Totalmente Conexa: Es un caso especial de malla donde cada nodo tiene una conexión directa con todos los demás nodos de la red. Ofrece la máxima redundancia y velocidad, pero es la más costosa de cablear.
 
+10- Explicar el servicio de DHCP.
+
+El servicio DHCP (Dynamic Host Configuration Protocol) es el encargado de asignar automáticamente las direcciones IP, máscara, gateway y DNS a los dispositivos en una red, mediante un proceso DORA (Discover, Offer, Request, Ack), evitando configuraciones manuales.
+
 11- Explicar el servicio de DNS.
 DNS (sistema de nombres de dominios), es un sistema que traduce nombres de dominio en direcciones IP númericas (que sonas que usan los dispositivos para comunicarse entre sí en internet). Facilita la navegación y el acceso a servicios en línea sin tener que recordar los IP de los mismos. Además permite distribuir el tráfico entre varios servidores para mejorar el rendimiento de la página
 
 12- Explicar las tecnologías Wireless, y sus estándares.
 
+13- ¿Qué es proxy?
+
+El proxy es el intermediario entre un cliente e internet que recibe peticiones, las reenvía y devuelve respuestas. Se usa para filtrado, caché, anonimato o control de acceso.
+
 15- Explicar el protocolo de comunicaciones OSPF.
+
+16- Explicar el protocolo ARP.
+
+ARP (Address Resolution Protocol) resuelve direcciones IP a direcciones MAC en una red local. Cuando un dispositivo necesita una IP, este la pregunta por broadcast y el dueño responde con su MAC.
+
 
 18- ¿Qué es una DMZ?
 Una DMZ (Zona Desmilitarizada) es un segmento de red aislado que actúa como intermediario entre la red interna (segura) y la red externa (pública/Internet). Su proposito es alojar servidores que deben ser accesibles desde el exterior (Web, Mail, FTP) sin exponer directamente la red privada.Implementa una capa de protección adicional; si un atacante compromete un servidor en la DMZ, el firewall interno actúa como una segunda barrera para evitar que acceda a los recursos críticos de la organización.
+
+19- ¿Qué es un gateway?
+
+Un gateway es un nodo que actuá como puerta de enlace entre dos redes diferentes (ej. LAN a WAN o redes con distintos protocolos), permitiendo la comunicación. En las redes domésticas suele ser el router.
 
 21- Tipos de enlace: MPLS, LAN to LAN, microonda, VSAT.
 a. Explique cada uno de estos tipos de enlace.
@@ -70,8 +86,18 @@ d. Elija un tipo de enlace para los siguientes escenarios:
 2 d. Conectar los datos de los pozos petroleros durante 15 minutos por día.
 3 d. Comunicar dos edificios enfrentados en la misma calle
 
+22- Describir la tecnología LTE.
+
+LTE (Long Term Evolution) es un estándar de comunicaciñon móvil 4G de alta velocidad, basado en comunicación de paquetes todo IP, con bajas latencias y velocidades teóricas que pueden llegar hasta los 300 Mbps de descarga.
+
 24- ¿Qué significa aplicar calidad en un enlace MPLS?
 Aplicar calidad en MPLS se refiere a la implementación de QoS (Quality of Service) para gestionar y priorizar el tráfico de datos. En lugar de tratar todos los paquetes por igual, se utilizan etiquetas para clasificar el tráfico según su importancia o sensibilidad esto permite garantizar ancho de banda y reducir la latencia en servicios críticos en tiempo real , dándoles prioridad de paso sobre tráfico menos sensible .
+
+25- ¿Qué diferencias puede encontrar entre una conexión Coaxial, UTP o Fibra?
+
+Coaxial: núcleo de cobre con blindaje, hasta ~10 Mbps a 500m, sensible a interferencias.
+UTP: pares trenzados sin blindaje, hasta 10 Gbps (Cat6a) a 100m, económico, susceptible a EMI.
+Fibra: vidrio/plástico, transmisión por luz, >100 Gbps y km, inmune a EMI, más cara.
 
 27- Explique el modelo OSI.
 El modelo OSI (del inglés Open Systems Interconnection o interconexión de sistemas abiertos) es un marco de trabajo conceptual que define cómo se comunican los sistemas de redes y cómo se envían datos de un remitente a un destinatario. El modelo se usa para describir los componentes de la comunicación de datos, para poder establecer reglas y estándares acerca de las aplicaciones y la infraestructura de red. El modelo OSI contiene siete capas que se apilan (conceptualmente) de abajo a arriba. Las capas OSI son:
@@ -84,6 +110,14 @@ Sesión: Control de los diálogos y conexiones entre aplicaciones.
 Presentación: Traducción, cifrado y compresión de datos.
 Aplicación: Interfaz que utilizan los programas (HTTP, FTP, etc.).
 
+28- Explicar el estándar IEEE 802.3 regula la red. Cómo se implementa, ventajas y desventajas.
+
+IEEE 802.3 define Ethernet (redes LAN cableadas). Se implementa con CSMA/CD (hoy full-dúplex) en UTP, fibra o coaxial. Ventajas: simple, económico, escalable. Desventajas: distancia limitada por tramo (100m en UTP), colisiones en half-dúplex obsoleto.
+
 30- ¿Qué protocolos se usan para enviar y recibir correo?
+
+31- ¿Qué protocolo puede usarse para leer correo recibido?
+
+POP3 (Post Office Protocol v3) descarga correos del servidor al cliente eliminándolos del servidor, o IMAP (Internet Message Access Protocol) mantiene los correos en el servidor, permitiendo sincronización entre múltiples dispositivos.
 
 Los protocolos que se usan son: POP recibe correo, SMTP envía correo.
