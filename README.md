@@ -83,6 +83,7 @@ Una DMZ (Zona Desmilitarizada) es un segmento de red aislado que actúa como int
 Un gateway es un nodo que actúa como puerta de enlace entre dos redes diferentes (ej. LAN a WAN o redes con distintos protocolos), permitiendo la comunicación. En las redes domésticas suele ser el router.
 
 20- Según Microsoft, ¿qué significa NBL?
+Según Microsoft NBL hace referencia a Net Buffer List (lista de búferes de red) en el contexto de controladores de red de Windows. Es una estructura de datos (compatible con hasta 32 equipos por clústerS) usada por el controlador NDIS para gestionar paquetes de red. Balancea cargas TCP/IP permitiendo agregar o quitar dinámicamente hosts para manejar los aumentos de tráfico.
 
 21- Tipos de enlace: MPLS, LAN to LAN, microonda, VSAT.
 a. Explique cada uno de estos tipos de enlace.
