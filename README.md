@@ -13,6 +13,17 @@ TCP/IP: Es el conjunto de protocolos estándar de Internet. Se encarga del direc
 NetBIOS: Es una interfaz o API antigua que permite a las aplicaciones en computadoras separadas comunicarse dentro de una red local (LAN). Se utilizaba principalmente para identificar equipos por nombres (ej: "PC-VENTAS"). No es enrutable por sí solo.
 Diferencias: TCP/IP es escalable para redes globales y utiliza direcciones IP, mientras que NetBIOS está diseñado para redes pequeñas y utiliza nombres de hasta 15 caracteres.
 
+8- Defina la red según su geografía. Explicar distintas variantes
+Una red puede categorizarse según su alcance a nivel geografico. Hay redes que conectan y permiten el transpaso de información entre nodos de distintos países, y redes de alcances más pequeños.
+Ejemplos de categroizar la red por su alcance, pueden ser:
+LAN (local area network): son redes chicas, hogareñas o de oficina, que son poco costosas y alta velocidad.
+MAN (metropolitan area network): son redes medianas (varias LANS conectadas),que son mayormente administradas por el gobierno y provedores ISP. Son el nexo de interconexión entre las LAN y las WAN.
+WAN (wide area network): son redes grandes que interconectan países o regiones.
+WLAN (Wireless local area network): como una LAN pero inalámbrica.
+CAN (campus area network): como una MAN pero de una región más chica.
+PAN (personal area network): conectan y permiten la transferencia de datos entre los dispositivos de un mismo usuario.
+SAN (storage area network): enlazan unidades de almacenamiento de información y datos. Son rápidas y están instaladas paralelamente con las redes locales
+
 9- Defina una red según su topología. Explicar distintas variantes.
 La topología de red es la disposición geométrica de los puntos de conexión (nodos) y los enlaces de datos en una red. Según el gráfico, las variantes son:
 Bus: Todos los nodos están conectados a un medio de transmisión común (un solo cable). Es sencilla de instalar pero, si el cable central falla, toda la red queda inoperativa.
