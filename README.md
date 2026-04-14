@@ -1,4 +1,4 @@
-1-¿Qué es uan VLAN?
+1-¿Qué es una VLAN?
 
 Una VLAN o Virtual LAN es una red lógica dentro de un switch que agrupa dispositivos sin importar su ubicación física, permitiendo organizar el tráfico como si estuvieran en redes distintas, mejorando así la seguridad y el rendimiento.
 
@@ -12,7 +12,7 @@ Enlazan unidades de almacenamiento de información y datos. son rápidas y está
 
 Hub: replica todas las tramas por todos los puertos (dominio de colisión único)
 Repetidor: regenera la señal eléctrica para extender distancia, no toma decisiones.
-Switch: filtra y reenvia tramas según dirección MAC, crea dominios de colisión por puerto.
+Switch: filtra y reenvía tramas según dirección MAC, crea dominios de colisión por puerto.
 Router: conecta redes distintas, reenvía paquetes según dirección IP, aísla dominios de broadcast.
 
 5- ¿Qué es un protocolo de comunicaciones?
@@ -26,7 +26,7 @@ Diferencias: TCP/IP es escalable para redes globales y utiliza direcciones IP, m
 
 7- ¿Cómo está formado un paquete de datos TCP/IP?¿Qué es un "flag" en un paquete TCP/IP?
 
-Un paquete TCP/IP se forma con cabecera IP (origen/destino, TTL, etc.) mas la cabecera TCP (puertos, número de secuencia, flags, ventana) y los datos. Un flag en TCP es un bit de control (ej. SYN, ACK, FIN, RST) que indica estado de la conexión, como inicio, confirmación o fin.
+Un paquete TCP/IP se forma con cabecera IP (origen/destino, TTL, etc.) más la cabecera TCP (puertos, número de secuencia, flags, ventana) y los datos. Un flag en TCP es un bit de control (ej. SYN, ACK, FIN, RST) que indica estado de la conexión, como inicio, confirmación o fin.
 
 8- Defina la red según su geografía. Explicar distintas variantes
 Una red puede categorizarse según su alcance a nivel geografico. Hay redes que conectan y permiten el transpaso de información entre nodos de distintos países, y redes de alcances más pequeños.
@@ -75,7 +75,7 @@ Una DMZ (Zona Desmilitarizada) es un segmento de red aislado que actúa como int
 
 19- ¿Qué es un gateway?
 
-Un gateway es un nodo que actuá como puerta de enlace entre dos redes diferentes (ej. LAN a WAN o redes con distintos protocolos), permitiendo la comunicación. En las redes domésticas suele ser el router.
+Un gateway es un nodo que actúa como puerta de enlace entre dos redes diferentes (ej. LAN a WAN o redes con distintos protocolos), permitiendo la comunicación. En las redes domésticas suele ser el router.
 
 21- Tipos de enlace: MPLS, LAN to LAN, microonda, VSAT.
 a. Explique cada uno de estos tipos de enlace.
@@ -88,7 +88,7 @@ d. Elija un tipo de enlace para los siguientes escenarios:
 
 22- Describir la tecnología LTE.
 
-LTE (Long Term Evolution) es un estándar de comunicaciñon móvil 4G de alta velocidad, basado en comunicación de paquetes todo IP, con bajas latencias y velocidades teóricas que pueden llegar hasta los 300 Mbps de descarga.
+LTE (Long Term Evolution) es un estándar de comunicación móvil 4G de alta velocidad, basado en comunicación de paquetes todo IP, con bajas latencias y velocidades teóricas que pueden llegar hasta los 300 Mbps de descarga.
 
 24- ¿Qué significa aplicar calidad en un enlace MPLS?
 Aplicar calidad en MPLS se refiere a la implementación de QoS (Quality of Service) para gestionar y priorizar el tráfico de datos. En lugar de tratar todos los paquetes por igual, se utilizan etiquetas para clasificar el tráfico según su importancia o sensibilidad esto permite garantizar ancho de banda y reducir la latencia en servicios críticos en tiempo real , dándoles prioridad de paso sobre tráfico menos sensible .
@@ -116,8 +116,9 @@ IEEE 802.3 define Ethernet (redes LAN cableadas). Se implementa con CSMA/CD (hoy
 
 30- ¿Qué protocolos se usan para enviar y recibir correo?
 
+Los protocolos que se usan son: POP recibe correo, SMTP envía correo.
+
 31- ¿Qué protocolo puede usarse para leer correo recibido?
 
 POP3 (Post Office Protocol v3) descarga correos del servidor al cliente eliminándolos del servidor, o IMAP (Internet Message Access Protocol) mantiene los correos en el servidor, permitiendo sincronización entre múltiples dispositivos.
 
-Los protocolos que se usan son: POP recibe correo, SMTP envía correo.
