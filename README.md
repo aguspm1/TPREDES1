@@ -13,21 +13,26 @@
 ### 1-¿Qué es una VLAN?
 
 Una VLAN o Virtual LAN es una red lógica dentro de un switch que agrupa dispositivos sin importar su ubicación física, permitiendo organizar el tráfico como si estuvieran en redes distintas, mejorando así la seguridad y el rendimiento.
+
 ![VLAN](https://t7m8e9c8.delivery.rocketcdn.me/wp-content/uploads/2025/05/VLAN-que-son-articulo-hardwaresfera-Amazon-mockup.jpg)
 
 ### 2-¿Qué es una VPN?
 
 Una VPN es una tecnología que nos permite crear redes lógicas independientes dentro de la misma red física. Sirve para dividir una red en subredes y usarlas de forma diferente. Presenta como ventajas una mayor seguridad, segmentación, flexibilidad y optimización de la red
+
 ![VPN](https://cdn.hswstatic.com/gif/VPN.jpg)
 
 ### 3- ¿Qué es una SAN?
 
 Enlazan unidades de almacenamiento de información y datos. son rápidas y están instaladas paralelamente con las redes Local
+
 ![SAN](https://www.shutterstock.com/image-vector/san-storage-area-network-acronym-260nw-2105746463.jpg)
 
 ### 4-Diferencias entre Hub, Repetidor, Router y SWITCH. Explicar las diferencias.
 
 Hub: replica todas las tramas por todos los puertos (dominio de colisión único).
+
+![Hub](https://trabajoracks.home.blog/wp-content/uploads/2019/03/14.jpg)
 
 Repetidor: regenera la señal eléctrica para extender distancia, no toma decisiones.
 
