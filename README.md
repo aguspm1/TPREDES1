@@ -122,3 +122,6 @@ Los protocolos que se usan son: POP recibe correo, SMTP envía correo.
 
 POP3 (Post Office Protocol v3) descarga correos del servidor al cliente eliminándolos del servidor, o IMAP (Internet Message Access Protocol) mantiene los correos en el servidor, permitiendo sincronización entre múltiples dispositivos.
 
+33- Brian:
+
+Tengo algo de experiencia en redes, básica dentro de todo pero es algo. Entro en el panel de configuración del router de mi casa, la red de mi departamento y de la casa de mis padres la configure yo, y en esta ultima también con repetidores de señal. Con amigos mas de una vez hemos creado redes LAN. Y por último el año pasado en un curso sobre ciber seguridad vi, estudié y trabajé con los protocoles de red.
