@@ -8,7 +8,7 @@
 
 ## Preguntas:
 
-## 1-¿Qué es una VLAN?
+### 1-¿Qué es una VLAN?
 
 Una VLAN o Virtual LAN es una red lógica dentro de un switch que agrupa dispositivos sin importar su ubicación física, permitiendo organizar el tráfico como si estuvieran en redes distintas, mejorando así la seguridad y el rendimiento.
 
