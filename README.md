@@ -4,6 +4,9 @@ Es una tecnología que nos permite crear redes lógicas independientes dentro de
 3- ¿Qué es una SAN?
 Enlazan unidades de almacenamiento de información y datos. son rápidas y están instaladas paralelamente con las redes Local
 
+5- ¿Qué es un protocolo de comunicaciones?
+Un protocolo es un conjunto de reglas, restriciones, procedimientos y formatos que definen el intercambio de paquetes para comunicar 2 o más nodos. Ambos nodos deben utilizar el mismo protocolo para que se puedan comunicar.
+
 6- Explique TCP/IP y NetBios, resuma sus diferencias. (Acá sí explicar cada uno y sus diferencias)
 
 TCP/IP: Es el conjunto de protocolos estándar de Internet. Se encarga del direccionamiento (IP) y de garantizar que los datos lleguen de forma confiable y ordenada (TCP). Es enrutable, lo que permite la comunicación entre redes distintas a nivel global.
