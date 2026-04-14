@@ -36,7 +36,7 @@ Malla: Los nodos están conectados entre sí de manera que existan varios camino
 Totalmente Conexa: Es un caso especial de malla donde cada nodo tiene una conexión directa con todos los demás nodos de la red. Ofrece la máxima redundancia y velocidad, pero es la más costosa de cablear.
 
 11- Explicar el servicio de DNS.
-DNS (sistema de nombres de dominios), es un sistema que traduce nombres de dominio en direcciones IP númericas (que sonas que usan los dispositivos para comunicarse entre sí en internet). Facilita la navegación y el acceso a servicios en línea sin tener que recordar los IP de los mismos
+DNS (sistema de nombres de dominios), es un sistema que traduce nombres de dominio en direcciones IP númericas (que sonas que usan los dispositivos para comunicarse entre sí en internet). Facilita la navegación y el acceso a servicios en línea sin tener que recordar los IP de los mismos. Además permite distribuir el tráfico entre varios servidores para mejorar el rendimiento de la página
 
 12- Explicar las tecnologías Wireless, y sus estándares.
 
