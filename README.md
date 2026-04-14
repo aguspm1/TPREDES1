@@ -64,6 +64,7 @@ DNS (sistema de nombres de dominios), es un sistema que traduce nombres de domin
 El proxy es el intermediario entre un cliente e internet que recibe peticiones, las reenvía y devuelve respuestas. Se usa para filtrado, caché, anonimato o control de acceso.
 
 14- Explicar el protocolo Spanning tree
+El protocolo spanning tree es un protocolo de capa 2 diseñado para evitar bucles lógicos en redes Ethernet con enlaces redundantes.Si un enlace falla STP habilita automáticamente una ruta bloqueada.
 
 15- Explicar el protocolo de comunicaciones OSPF.
 
