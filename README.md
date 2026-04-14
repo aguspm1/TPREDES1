@@ -71,6 +71,7 @@ Totalmente Conexa: Es un caso especial de malla donde cada nodo tiene una conexi
 El servicio DHCP (Dynamic Host Configuration Protocol) es el encargado de asignar automáticamente las direcciones IP, máscara, gateway y DNS a los dispositivos en una red, mediante un proceso DORA (Discover, Offer, Request, Ack), evitando configuraciones manuales.
 
 11- Explicar el servicio de DNS.
+
 DNS (sistema de nombres de dominios), es un sistema que traduce nombres de dominio en direcciones IP númericas (que sonas que usan los dispositivos para comunicarse entre sí en internet). Facilita la navegación y el acceso a servicios en línea sin tener que recordar los IP de los mismos. Además permite distribuir el tráfico entre varios servidores para mejorar el rendimiento de la página
 ![DNS](https://kinsta.com/es/wp-content/uploads/sites/8/2018/05/qu%C3%A9-es-dns.png)
 
@@ -82,6 +83,7 @@ El proxy es el intermediario entre un cliente e internet que recibe peticiones, 
 
 14- Explicar el protocolo Spanning tree
 El protocolo spanning tree es un protocolo de capa 2 diseñado para evitar bucles lógicos en redes Ethernet con enlaces redundantes.Si un enlace falla STP habilita automáticamente una ruta bloqueada.
+![Spanning tree](https://i.ytimg.com/vi/WjzyH2vLdsc/maxresdefault.jpg)
 
 15- Explicar el protocolo de comunicaciones OSPF.
 
