@@ -96,6 +96,9 @@ d. Elija un tipo de enlace para los siguientes escenarios:
 
 LTE (Long Term Evolution) es un estándar de comunicación móvil 4G de alta velocidad, basado en comunicación de paquetes todo IP, con bajas latencias y velocidades teóricas que pueden llegar hasta los 300 Mbps de descarga.
 
+23- Explique la solución de Microsoft Teams. Si quieren describir otra solución de
+otra empresa es también válido.
+
 24- ¿Qué significa aplicar calidad en un enlace MPLS?
 Aplicar calidad en MPLS se refiere a la implementación de QoS (Quality of Service) para gestionar y priorizar el tráfico de datos. En lugar de tratar todos los paquetes por igual, se utilizan etiquetas para clasificar el tráfico según su importancia o sensibilidad esto permite garantizar ancho de banda y reducir la latencia en servicios críticos en tiempo real , dándoles prioridad de paso sobre tráfico menos sensible .
 
@@ -104,6 +107,9 @@ Aplicar calidad en MPLS se refiere a la implementación de QoS (Quality of Servi
 Coaxial: núcleo de cobre con blindaje, hasta ~10 Mbps a 500m, sensible a interferencias.
 UTP: pares trenzados sin blindaje, hasta 10 Gbps (Cat6a) a 100m, económico, susceptible a EMI.
 Fibra: vidrio/plástico, transmisión por luz, >100 Gbps y km, inmune a EMI, más cara.
+
+26- Según Cisco, ¿qué significa CCENT, CCNA y CCNP? Descripción breve del Track
+Routing & Switching y de algún otro a elección (ej. Wireless, Security, Cloud, etc).
 
 27- Explique el modelo OSI.
 El modelo OSI (del inglés Open Systems Interconnection o interconexión de sistemas abiertos) es un marco de trabajo conceptual que define cómo se comunican los sistemas de redes y cómo se envían datos de un remitente a un destinatario. El modelo se usa para describir los componentes de la comunicación de datos, para poder establecer reglas y estándares acerca de las aplicaciones y la infraestructura de red. El modelo OSI contiene siete capas que se apilan (conceptualmente) de abajo a arriba. Las capas OSI son:
@@ -120,6 +126,8 @@ Aplicación: Interfaz que utilizan los programas (HTTP, FTP, etc.).
 
 IEEE 802.3 define Ethernet (redes LAN cableadas). Se implementa con CSMA/CD (hoy full-dúplex) en UTP, fibra o coaxial. Ventajas: simple, económico, escalable. Desventajas: distancia limitada por tramo (100m en UTP), colisiones en half-dúplex obsoleto.
 
+29- Explicar el estándar IEEE 802.4 regula la red.
+
 30- ¿Qué protocolos se usan para enviar y recibir correo?
 
 Los protocolos que se usan son: POP recibe correo, SMTP envía correo.
@@ -127,6 +135,10 @@ Los protocolos que se usan son: POP recibe correo, SMTP envía correo.
 31- ¿Qué protocolo puede usarse para leer correo recibido?
 
 POP3 (Post Office Protocol v3) descarga correos del servidor al cliente eliminándolos del servidor, o IMAP (Internet Message Access Protocol) mantiene los correos en el servidor, permitiendo sincronización entre múltiples dispositivos.
+
+32- Diferencias entre IPV4 e IPV6
+IPV4: consta de 32 bits. cada grupo de bits, expresa entre 0-255 valores. Y se separan por puntos
+IPV6: consta de 182 bits. Cada grupo de bits se expresa en hexadecimal.
 
 33- Brian:
 
