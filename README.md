@@ -36,9 +36,15 @@ Hub: replica todas las tramas por todos los puertos (dominio de colisión único
 
 Repetidor: regenera la señal eléctrica para extender distancia, no toma decisiones.
 
+![Repetidor de red](https://i.blogs.es/f38367/repetidor-wif/450_1000.jpg)
+
 Switch: filtra y reenvía tramas según dirección MAC, crea dominios de colisión por puerto.
 
+![Switch](https://www.redeszone.net/app/uploads-redeszone.net/2015/12/D-Link-DGS-108.jpg)
+
 Router: conecta redes distintas, reenvía paquetes según dirección IP, aísla dominios de broadcast.
+
+![Router](https://laumayer.com/wp-content/uploads/2021/07/Router-de-la-familia-DSR.webp)
 
 ### 5- ¿Qué es un protocolo de comunicaciones?
 
