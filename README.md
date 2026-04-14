@@ -93,6 +93,7 @@ ARP (Address Resolution Protocol) resuelve direcciones IP a direcciones MAC en u
 
 17- ¿Qué es un Firewall?
 Un firewall es una herramienta de seguridad que actua como una barrera entre una red interna y una red externa. Controla y filtra el tráfico de red para prevenir accesos no autorizador y proteger la red interna de amenazas y ataques
+![Firewall](https://exa.net.uk/wp-content/uploads/2021/06/What-is-a-firewall.png)
 
 18- ¿Qué es una DMZ?
 Una DMZ (Zona Desmilitarizada) es un segmento de red aislado que actúa como intermediario entre la red interna (segura) y la red externa (pública/Internet). Su proposito es alojar servidores que deben ser accesibles desde el exterior (Web, Mail, FTP) sin exponer directamente la red privada.Implementa una capa de protección adicional; si un atacante compromete un servidor en la DMZ, el firewall interno actúa como una segunda barrera para evitar que acceda a los recursos críticos de la organización.
