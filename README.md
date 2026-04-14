@@ -1,4 +1,5 @@
 1-¿Qué es uan VLAN?
+
 Una VLAN o Virtual LAN es una red lógica dentro de un switch que agrupa dispositivos sin importar su ubicación física, permitiendo organizar el tráfico como si estuvieran en redes distintas, mejorando así la seguridad y el rendimiento.
 
 2-¿Qué es una VPN?
@@ -8,6 +9,7 @@ Es una tecnología que nos permite crear redes lógicas independientes dentro de
 Enlazan unidades de almacenamiento de información y datos. son rápidas y están instaladas paralelamente con las redes Local
 
 4-Diferencias entre Hub, Repetidor, Router y SWITCH. Explicar las diferencias.
+
 Hub: replica todas las tramas por todos los puertos (dominio de colisión único)
 Repetidor: regenera la señal eléctrica para extender distancia, no toma decisiones.
 Switch: filtra y reenvia tramas según dirección MAC, crea dominios de colisión por puerto.
