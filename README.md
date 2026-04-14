@@ -7,6 +7,12 @@ Es una tecnología que nos permite crear redes lógicas independientes dentro de
 3- ¿Qué es una SAN?
 Enlazan unidades de almacenamiento de información y datos. son rápidas y están instaladas paralelamente con las redes Local
 
+4-Diferencias entre Hub, Repetidor, Router y SWITCH. Explicar las diferencias.
+Hub: replica todas las tramas por todos los puertos (dominio de colisión único)
+Repetidor: regenera la señal eléctrica para extender distancia, no toma decisiones.
+Switch: filtra y reenvia tramas según dirección MAC, crea dominios de colisión por puerto.
+Router: conecta redes distintas, reenvía paquetes según dirección IP, aísla dominios de broadcast.
+
 5- ¿Qué es un protocolo de comunicaciones?
 Un protocolo es un conjunto de reglas, restriciones, procedimientos y formatos que definen el intercambio de paquetes para comunicar 2 o más nodos. Ambos nodos deben utilizar el mismo protocolo para que se puedan comunicar.
 
