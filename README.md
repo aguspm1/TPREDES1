@@ -63,12 +63,16 @@ DNS (sistema de nombres de dominios), es un sistema que traduce nombres de domin
 
 El proxy es el intermediario entre un cliente e internet que recibe peticiones, las reenvía y devuelve respuestas. Se usa para filtrado, caché, anonimato o control de acceso.
 
+14- Explicar el protocolo Spanning tree
+
 15- Explicar el protocolo de comunicaciones OSPF.
 
 16- Explicar el protocolo ARP.
 
 ARP (Address Resolution Protocol) resuelve direcciones IP a direcciones MAC en una red local. Cuando un dispositivo necesita una IP, este la pregunta por broadcast y el dueño responde con su MAC.
 
+17- ¿Qué es un Firewall?
+Un firewall es una herramienta de seguridad que actua como una barrera entre una red interna y una red externa. Controla y filtra el tráfico de red para prevenir accesos no autorizador y proteger la red interna de amenazas y ataques
 
 18- ¿Qué es una DMZ?
 Una DMZ (Zona Desmilitarizada) es un segmento de red aislado que actúa como intermediario entre la red interna (segura) y la red externa (pública/Internet). Su proposito es alojar servidores que deben ser accesibles desde el exterior (Web, Mail, FTP) sin exponer directamente la red privada.Implementa una capa de protección adicional; si un atacante compromete un servidor en la DMZ, el firewall interno actúa como una segunda barrera para evitar que acceda a los recursos críticos de la organización.
@@ -76,6 +80,8 @@ Una DMZ (Zona Desmilitarizada) es un segmento de red aislado que actúa como int
 19- ¿Qué es un gateway?
 
 Un gateway es un nodo que actúa como puerta de enlace entre dos redes diferentes (ej. LAN a WAN o redes con distintos protocolos), permitiendo la comunicación. En las redes domésticas suele ser el router.
+
+20- Según Microsoft, ¿qué significa NBL?
 
 21- Tipos de enlace: MPLS, LAN to LAN, microonda, VSAT.
 a. Explique cada uno de estos tipos de enlace.
