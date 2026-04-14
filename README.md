@@ -128,6 +128,7 @@ Aplicación: Interfaz que utilizan los programas (HTTP, FTP, etc.).
 IEEE 802.3 define Ethernet (redes LAN cableadas). Se implementa con CSMA/CD (hoy full-dúplex) en UTP, fibra o coaxial. Ventajas: simple, económico, escalable. Desventajas: distancia limitada por tramo (100m en UTP), colisiones en half-dúplex obsoleto.
 
 29- Explicar el estándar IEEE 802.4 regula la red.
+El estándar IEEE 802.4 (token bus), regula una red local LAN que utiliza una topología física de bus pero con una lógica de paso de tokens para controlar el acceso al medio. Solo la estación que posee tokens puede transmitir datos
 
 30- ¿Qué protocolos se usan para enviar y recibir correo?
 
