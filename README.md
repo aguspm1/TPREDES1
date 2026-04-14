@@ -20,9 +20,12 @@ Enlazan unidades de almacenamiento de información y datos. son rápidas y está
 
 4-Diferencias entre Hub, Repetidor, Router y SWITCH. Explicar las diferencias.
 
-Hub: replica todas las tramas por todos los puertos (dominio de colisión único)
+Hub: replica todas las tramas por todos los puertos (dominio de colisión único).
+
 Repetidor: regenera la señal eléctrica para extender distancia, no toma decisiones.
+
 Switch: filtra y reenvía tramas según dirección MAC, crea dominios de colisión por puerto.
+
 Router: conecta redes distintas, reenvía paquetes según dirección IP, aísla dominios de broadcast.
 
 5- ¿Qué es un protocolo de comunicaciones?
