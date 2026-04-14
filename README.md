@@ -72,6 +72,7 @@ El servicio DHCP (Dynamic Host Configuration Protocol) es el encargado de asigna
 
 11- Explicar el servicio de DNS.
 DNS (sistema de nombres de dominios), es un sistema que traduce nombres de dominio en direcciones IP númericas (que sonas que usan los dispositivos para comunicarse entre sí en internet). Facilita la navegación y el acceso a servicios en línea sin tener que recordar los IP de los mismos. Además permite distribuir el tráfico entre varios servidores para mejorar el rendimiento de la página
+![DNS](https://kinsta.com/es/wp-content/uploads/sites/8/2018/05/qu%C3%A9-es-dns.png)
 
 12- Explicar las tecnologías Wireless, y sus estándares.
 
