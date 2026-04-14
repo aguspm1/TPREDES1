@@ -8,6 +8,8 @@
 
 ## Juego:
 
+[Link del juego](https://google.com/)
+
 ## Preguntas:
 
 ### 1-¿Qué es una VLAN?
@@ -101,9 +103,12 @@ DNS (sistema de nombres de dominios), es un sistema que traduce nombres de domin
 
 El proxy es el intermediario entre un cliente e internet que recibe peticiones, las reenvía y devuelve respuestas. Se usa para filtrado, caché, anonimato o control de acceso.
 
+![Proxy](https://freevpnplanet.com/wp-content/uploads/2023/12/rvpn-proxy-is-an-intermediate-server-between-a-user-and-other-servers-3-20231229_142921_689399.png)
+
 ### 14- Explicar el protocolo Spanning tree
 
 El protocolo spanning tree es un protocolo de capa 2 diseñado para evitar bucles lógicos en redes Ethernet con enlaces redundantes.Si un enlace falla STP habilita automáticamente una ruta bloqueada.
+
 ![Spanning tree](https://i.ytimg.com/vi/WjzyH2vLdsc/maxresdefault.jpg)
 
 ### 15- Explicar el protocolo de comunicaciones OSPF.
@@ -112,9 +117,12 @@ El protocolo spanning tree es un protocolo de capa 2 diseñado para evitar bucle
 
 ARP (Address Resolution Protocol) resuelve direcciones IP a direcciones MAC en una red local. Cuando un dispositivo necesita una IP, este la pregunta por broadcast y el dueño responde con su MAC.
 
+![Address Resolution Protocol](https://www.openedr.com/blog/wp-content/uploads/2025/10/address-resolution-protocol-e1760383298569.png)
+
 ### 17- ¿Qué es un Firewall?
 
-Un firewall es una herramienta de seguridad que actua como una barrera entre una red interna y una red externa. Controla y filtra el tráfico de red para prevenir accesos no autorizador y proteger la red interna de amenazas y ataques
+Un firewall es una herramienta de seguridad que actua como una barrera entre una red interna y una red externa. Controla y filtra el tráfico de red para prevenir accesos no autorizador y proteger la red interna de amenazas y ataques. Trabaja específicamente con IPs
+
 ![Firewall](https://exa.net.uk/wp-content/uploads/2021/06/What-is-a-firewall.png)
 
 ### 18- ¿Qué es una DMZ?
