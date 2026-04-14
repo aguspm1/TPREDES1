@@ -1,3 +1,13 @@
+# TP1 de redes
+
+## Integrantes:
+
+- [Agustina Machaca](https://github.com/aguspm1)
+- [Brian Pitz](https://github.com/ElYabran)
+- [Milagros Llanos](https://github.com/moonstone3798)
+
+## Preguntas:
+
 1-¿Qué es una VLAN?
 
 Una VLAN o Virtual LAN es una red lógica dentro de un switch que agrupa dispositivos sin importar su ubicación física, permitiendo organizar el tráfico como si estuvieran en redes distintas, mejorando así la seguridad y el rendimiento.
