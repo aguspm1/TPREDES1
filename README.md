@@ -112,6 +112,10 @@ Fibra: vidrio/plástico, transmisión por luz, >100 Gbps y km, inmune a EMI, má
 
 26- Según Cisco, ¿qué significa CCENT, CCNA y CCNP? Descripción breve del Track
 Routing & Switching y de algún otro a elección (ej. Wireless, Security, Cloud, etc).
+Según Cisco, las certificaciones representan distintos niveles de maestría en redes.
+CCENT: era el nivel básico inicial que certificaba conocimientos fundamentales para puestos de soporte técnico y administración de redes básicas. Actualmente quedo unificada en el nuevo CCNA
+CCNA: cetrificación de nivel asociado que cubre los fundamentos de redes
+CCNP: certificaión de nivel profesional que requiere 3-5 años de experiencia. Valida la capacidad de implementar, configurar y solucionar problemas de redes corporativas complejas cableadas e inalámbricas.
 
 27- Explique el modelo OSI.
 El modelo OSI (del inglés Open Systems Interconnection o interconexión de sistemas abiertos) es un marco de trabajo conceptual que define cómo se comunican los sistemas de redes y cómo se envían datos de un remitente a un destinatario. El modelo se usa para describir los componentes de la comunicación de datos, para poder establecer reglas y estándares acerca de las aplicaciones y la infraestructura de red. El modelo OSI contiene siete capas que se apilan (conceptualmente) de abajo a arriba. Las capas OSI son:
