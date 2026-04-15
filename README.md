@@ -113,6 +113,8 @@ El protocolo spanning tree es un protocolo de capa 2 diseñado para evitar bucle
 
 ### 15- Explicar el protocolo de comunicaciones OSPF.
 
+OSPF (Open Shortest Path First) es un protocolo de enrutamiento de estado de enlace jerárquico y sin clase que sustituyó a RIP al ofrecer mayor escalabilidad mediante el uso de áreas y el algoritmo SPF para calcular la mejor ruta basada en el costo. Este protocolo logra una convergencia rápida y eficiente al enviar actualizaciones solo cuando ocurren cambios en la topología, manteniendo tres bases de datos críticas (vecinos, topología y routing) para gestionar la información de la red. Su funcionamiento se basa en el intercambio de cinco tipos de mensajes para establecer adyacencias, elegir routers designados (DR/BDR) en redes de acceso múltiple y sincronizar la información hasta que todos los routers en un área compartan la misma visión de la red. Además, OSPF garantiza la seguridad mediante autenticación MD5 y optimiza el rendimiento del sistema al confinar el procesamiento de algoritmos complejos dentro de áreas específicas, lo que evita que cambios locales impacten innecesariamente en toda la infraestructura.
+
 ### 16- Explicar el protocolo ARP.
 
 ARP (Address Resolution Protocol) resuelve direcciones IP a direcciones MAC en una red local. Cuando un dispositivo necesita una IP, este la pregunta por broadcast y el dueño responde con su MAC.
