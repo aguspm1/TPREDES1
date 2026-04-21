@@ -87,6 +87,9 @@ Doble Anillo: Similar a la de anillo, pero con un segundo anillo redundante que 
 Árbol: Tiene un nodo raíz del cual se desprenden otros nodos de forma jerárquica. Se asemeja a una serie de redes en estrella conectadas entre sí.
 Malla: Los nodos están conectados entre sí de manera que existan varios caminos para los datos. No todos los nodos están conectados con todos, pero hay suficiente redundancia.
 Totalmente Conexa: Es un caso especial de malla donde cada nodo tiene una conexión directa con todos los demás nodos de la red. Ofrece la máxima redundancia y velocidad, pero es la más costosa de cablear.
+![redes según su topologia](https://fernandoarciniega.com/wp-content/uploads/image-319.png)
+
+
 
 ### 10- Explicar el servicio de DHCP.
 
