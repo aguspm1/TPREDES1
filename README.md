@@ -89,8 +89,6 @@ Malla: Los nodos están conectados entre sí de manera que existan varios camino
 Totalmente Conexa: Es un caso especial de malla donde cada nodo tiene una conexión directa con todos los demás nodos de la red. Ofrece la máxima redundancia y velocidad, pero es la más costosa de cablear.
 ![redes según su topologia](https://fernandoarciniega.com/wp-content/uploads/image-319.png)
 
-
-
 ### 10- Explicar el servicio de DHCP.
 
 El servicio DHCP (Dynamic Host Configuration Protocol) es el encargado de asignar automáticamente las direcciones IP, máscara, gateway y DNS a los dispositivos en una red, mediante un proceso DORA (Discover, Offer, Request, Ack), evitando configuraciones manuales.
@@ -156,9 +154,14 @@ d. Elija un tipo de enlace para los siguientes escenarios:
 
 LTE (Long Term Evolution) es un estándar de comunicación móvil 4G de alta velocidad, basado en comunicación de paquetes todo IP, con bajas latencias y velocidades teóricas que pueden llegar hasta los 300 Mbps de descarga.
 
-### 23- Explique la solución de Microsoft Teams. Si quieren describir otra solución de
+### 23- Explique la solución de Microsoft Teams. Si quieren describir otra solución de otra empresa es también válido.
 
-otra empresa es también válido.
+Microsoft Teams es una plataforma de comunicación y colaboración desarrollada por Microsoft que funciona sobre Internet para conectar usuarios dentro de una organización.
+Es un servicio en la nube que permite la transmisión de datos en tiempo real y diferido, integrando:
+Mensajería instantánea (envío de datos en paquetes pequeños)
+Videollamadas y VoIP (transmisión de audio y video en tiempo real)
+Compartir de archivos (almacenamiento y acceso remoto)
+Utiliza protocolos de red y servicios cloud para garantizar comunicación eficiente, segura y sincronizada entre múltiples dispositivos.
 
 ### 24- ¿Qué significa aplicar calidad en un enlace MPLS?
 
@@ -170,13 +173,14 @@ Coaxial: núcleo de cobre con blindaje, hasta ~10 Mbps a 500m, sensible a interf
 UTP: pares trenzados sin blindaje, hasta 10 Gbps (Cat6a) a 100m, económico, susceptible a EMI.
 Fibra: vidrio/plástico, transmisión por luz, >100 Gbps y km, inmune a EMI, más cara.
 
-### 26- Según Cisco, ¿qué significa CCENT, CCNA y CCNP? Descripción breve del Track
+### 26- Según Cisco, ¿qué significa CCENT, CCNA y CCNP? Descripción breve del Track Routing & Switching y de algún otro a elección (ej. Wireless, Security, Cloud, etc).
 
-Routing & Switching y de algún otro a elección (ej. Wireless, Security, Cloud, etc).
-Según Cisco, las certificaciones representan distintos niveles de maestría en redes.
-CCENT: era el nivel básico inicial que certificaba conocimientos fundamentales para puestos de soporte técnico y administración de redes básicas. Actualmente quedo unificada en el nuevo CCNA
-CCNA: cetrificación de nivel asociado que cubre los fundamentos de redes
-CCNP: certificaión de nivel profesional que requiere 3-5 años de experiencia. Valida la capacidad de implementar, configurar y solucionar problemas de redes corporativas complejas cableadas e inalámbricas.
+Según Cisco Systems, estas certificaciones representan distintos niveles de conocimiento en redes:
+-CCENT (Cisco Certified Entry Networking Technician): Era el nivel inicial que validaba conocimientos básicos de redes. Actualmente fue eliminado y su contenido se integró en CCNA.
+-CCNA (Cisco Certified Network Associate): Certificación de nivel asociado que cubre fundamentos de redes, direccionamiento IP, switching, routing y conceptos básicos de seguridad.
+-CCNP (Cisco Certified Network Professional): Certificación de nivel profesional que valida la capacidad de implementar, configurar y solucionar problemas en redes empresariales complejas.
+Track Routing y Switching: Se enfoca en el diseño, configuración y mantenimiento de redes, incluyendo routers, switches y protocolos de enrutamiento.
+Security: esta orientado a la protección de redes, incluyendo firewalls, VPNs, control de acceso y prevención de ataques.
 
 ### 27- Explique el modelo OSI.
 
@@ -208,9 +212,16 @@ POP3 (Post Office Protocol v3) descarga correos del servidor al cliente eliminá
 
 ### 32- Diferencias entre IPV4 e IPV6
 
-IPV4: consta de 32 bits. cada grupo de bits, expresa entre 0-255 valores. Y se separan por puntos
-IPV6: consta de 182 bits. Cada grupo de bits se expresa en hexadecimal.
+| Diferencia                | IPV4                            | IPV6                |
+| :------------------------ | :------------------------------ | :------------------ |
+| `Cantidad de direcciones` | `limitada aprox 4 mil millones` | `mucho mayor`       |
+| `Formato`                 | `decimal con .`                 | `hexadecimal con :` |
+| `Bits`                    | `32`                            | `128`               |
 
-### 33- Brian:
+### 33-(Individual para cada integrante del grupo) ¿Qué experiencia tienen en redes?
 
+Ejemplos.: Accedo y configuro el router de mi casa como admin, en mi trabajo hago tareas relacionadas a networking, configuro una PAN hogareña para mi o mi familia, amigos/as etc (Personal Area Network, todo dispositivo Wireless o no), no tengo ninguna experiencia, etc.
+Brian:
 Tengo algo de experiencia en redes, básica dentro de todo pero es algo. Entro en el panel de configuración del router de mi casa, la red de mi departamento y de la casa de mis padres la configure yo, y en esta ultima también con repetidores de señal. Con amigos mas de una vez hemos creado redes LAN. Y por último el año pasado en un curso sobre ciber seguridad vi, estudié y trabajé con los protocoles de red.
+
+Mili: No tengo experiencia previa en configuración de redes. Sin embargo, tengo interés en aprender y comprender los contenidos de la materia, ya que considero que pueden aportar a mi desarrollo profesional en el área.
