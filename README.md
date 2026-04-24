@@ -101,6 +101,14 @@ DNS (sistema de nombres de dominios), es un sistema que traduce nombres de domin
 ![DNS](https://kinsta.com/es/wp-content/uploads/sites/8/2018/05/qu%C3%A9-es-dns.png)
 
 ### 12- Explicar las tecnologías Wireless, y sus estándares.
+Las tecnologías Wireless permiten la transmisión de información entre dispositivos sin la necesidad de cables, utilizando ondas electromagnéticas (radiofrecuencia o infrarrojos). En el ámbito de las redes de datos, la tecnología predominante es la WLAN (Wireless Local Area Network), estandarizada por el protocolo IEEE 802.11, comúnmente conocido como Wi-Fi.
+Otros ejemplos: 
+
+WPAN (Personal Area Network): Redes de corto alcance (pocos metros). El estándar principal es Bluetooth (IEEE 802.15.1).
+
+WMAN (Metropolitan Area Network): Redes para cubrir ciudades. El estándar más conocido es WiMAX (IEEE 802.16).
+
+WWAN (Wide Area Network): Redes de área extensa que utilizan infraestructura de telefonía móvil (4G LTE, 5G).
 
 ### 13- ¿Qué es proxy?
 
@@ -144,13 +152,34 @@ Según Microsoft NBL hace referencia a Net Buffer List (lista de búferes de red
 
 ### 21- Tipos de enlace: MPLS, LAN to LAN, microonda, VSAT.
 
-a. Explique cada uno de estos tipos de enlace.
-b. Agregue dos tipos de enlaces, no mencionados anteriormente.
-c. Ranking de enlaces según lo pedido (de uno a seis, siendo uno el mejor): Por económico, performance, mayor capacidad, mayor o mejor configuración de restricciones, soporte a mayor distancia, menor esfuerzo de configuración.
-d. Elija un tipo de enlace para los siguientes escenarios:
+### -a. Explique cada uno de estos tipos de enlace.
+### -b. Agregue dos tipos de enlaces, no mencionados anteriormente.
+### -c. Ranking de enlaces según lo pedido (de uno a seis, siendo uno el mejor): Por económico, performance, mayor capacidad, mayor o mejor configuración de restricciones, soporte a mayor distancia, menor esfuerzo de configuración.
+### -d. Elija un tipo de enlace para los siguientes escenarios:
 1 d. Conectividad de varios de call centers con un data center central.
 2 d. Conectar los datos de los pozos petroleros durante 15 minutos por día.
 3 d. Comunicar dos edificios enfrentados en la misma calle
+
+MPLS: Es un protocolo de transporte de datos basado en el etiquetado de paquetes. Permite dirigir el tráfico por rutas predefinidas, facilitando la creación de redes privadas (VPN) y la priorización de servicios como voz o video sobre datos comunes.
+LAN to LAN: Es una interconexión de capa 2 que une dos redes de área local distantes. Permite que ambas sedes compartan el mismo segmento de red, manteniendo la visibilidad directa entre todos los dispositivos como si estuvieran en la misma ubicación.
+Microonda: Es un sistema de transmisión inalámbrica punto a punto que utiliza ondas de radio de alta frecuencia. Requiere antenas instaladas en torres o edificios con línea de vista despejada para transmitir datos a alta velocidad.
+VSAT: Es una tecnología de comunicación mediante terminales satelitales de pequeña apertura. Establece conexión enviando y recibiendo señales desde una estación terrestre hacia un satélite en órbita, cubriendo áreas donde no hay infraestructura de cable.
+
+b.
+Fibra Óptica: Es un medio de transmisión físico compuesto por hilos de vidrio o plástico que transportan pulsos de luz. Ofrece el mayor ancho de banda disponible, mínima latencia y total inmunidad a las interferencias electromagnéticas.
+SD-WAN: Es una arquitectura de red gestionada por software que permite administrar múltiples enlaces de diferentes proveedores de forma centralizada. Optimiza automáticamente el tráfico según el rendimiento de cada conexión en tiempo real.
+
+C.
+![img](https://i.postimg.cc/XNPtmCCV/Gemini-Generated-Image-w4oh4dw4oh4dw4oh.png)
+
+
+d. Elección para los escenarios planteados:
+
+Varios call centers con un data center central: MPLS. Es la opción ideal porque permite gestionar el tráfico de voz de manera prioritaria (QoS), asegurando que las llamadas no tengan cortes ni retrasos, y centraliza la seguridad de todas las sucursales.
+
+Datos de pozos petroleros (15 min/día): VSAT. Dado que los pozos suelen estar en zonas remotas e inaccesibles, el satélite es la única forma de garantizar conexión. Al ser solo 15 minutos diarios, el costo de transferencia es manejable frente a la imposibilidad de tirar cables.
+
+Dos edificios enfrentados en la misma calle: Microonda. Es la solución más eficiente y económica para corta distancia con línea de vista. Evita tener que romper la calle para pasar cables o pagar un abono mensual costoso a un proveedor de servicios.
 
 ### 22- Describir la tecnología LTE.
 
