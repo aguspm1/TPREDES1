@@ -8,7 +8,7 @@
 
 ## Juego:
 
-[Link del juego](https://google.com/)
+[Link del juego](https://view.genially.com/69dc36080008fc5c4f7ee872?from=editor)
 
 ## Preguntas:
 
@@ -99,8 +99,9 @@ DNS (sistema de nombres de dominios), es un sistema que traduce nombres de domin
 ![DNS](https://kinsta.com/es/wp-content/uploads/sites/8/2018/05/qu%C3%A9-es-dns.png)
 
 ### 12- Explicar las tecnologías Wireless, y sus estándares.
+
 Las tecnologías Wireless permiten la transmisión de información entre dispositivos sin la necesidad de cables, utilizando ondas electromagnéticas (radiofrecuencia o infrarrojos). En el ámbito de las redes de datos, la tecnología predominante es la WLAN (Wireless Local Area Network), estandarizada por el protocolo IEEE 802.11, comúnmente conocido como Wi-Fi.
-Otros ejemplos: 
+Otros ejemplos:
 
 WPAN (Personal Area Network): Redes de corto alcance (pocos metros). El estándar principal es Bluetooth (IEEE 802.15.1).
 
@@ -151,9 +152,13 @@ Según Microsoft NBL hace referencia a Net Buffer List (lista de búferes de red
 ### 21- Tipos de enlace: MPLS, LAN to LAN, microonda, VSAT.
 
 ### -a. Explique cada uno de estos tipos de enlace.
+
 ### -b. Agregue dos tipos de enlaces, no mencionados anteriormente.
+
 ### -c. Ranking de enlaces según lo pedido (de uno a seis, siendo uno el mejor): Por económico, performance, mayor capacidad, mayor o mejor configuración de restricciones, soporte a mayor distancia, menor esfuerzo de configuración.
+
 ### -d. Elija un tipo de enlace para los siguientes escenarios:
+
 1 d. Conectividad de varios de call centers con un data center central.
 2 d. Conectar los datos de los pozos petroleros durante 15 minutos por día.
 3 d. Comunicar dos edificios enfrentados en la misma calle
@@ -169,7 +174,6 @@ SD-WAN: Es una arquitectura de red gestionada por software que permite administr
 
 C.
 ![img](https://i.postimg.cc/XNPtmCCV/Gemini-Generated-Image-w4oh4dw4oh4dw4oh.png)
-
 
 d. Elección para los escenarios planteados:
 
