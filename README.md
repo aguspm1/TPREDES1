@@ -250,6 +250,7 @@ POP3 (Post Office Protocol v3) descarga correos del servidor al cliente eliminá
 ### 33-(Individual para cada integrante del grupo) ¿Qué experiencia tienen en redes?
 
 Ejemplos.: Accedo y configuro el router de mi casa como admin, en mi trabajo hago tareas relacionadas a networking, configuro una PAN hogareña para mi o mi familia, amigos/as etc (Personal Area Network, todo dispositivo Wireless o no), no tengo ninguna experiencia, etc.
+
 Brian:
 Tengo algo de experiencia en redes, básica dentro de todo pero es algo. Entro en el panel de configuración del router de mi casa, la red de mi departamento y de la casa de mis padres la configure yo, y en esta ultima también con repetidores de señal. Con amigos mas de una vez hemos creado redes LAN. Y por último el año pasado en un curso sobre ciber seguridad vi, estudié y trabajé con los protocoles de red.
 
