@@ -259,3 +259,5 @@ Brian:
 Tengo algo de experiencia en redes, básica dentro de todo pero es algo. Entro en el panel de configuración del router de mi casa, la red de mi departamento y de la casa de mis padres la configure yo, y en esta ultima también con repetidores de señal. Con amigos mas de una vez hemos creado redes LAN. Y por último el año pasado en un curso sobre ciber seguridad vi, estudié y trabajé con los protocoles de red.
 
 Mili: No tengo experiencia previa en configuración de redes. Sin embargo, tengo interés en aprender y comprender los contenidos de la materia, ya que considero que pueden aportar a mi desarrollo profesional en el área.
+
+Agustina: No tengo experiencia en configuración de redes, pero en el trtabajo usamos redes para conectar impresoras, fotocopiadoras y compartir archivos en diferentes computadoras.
